@@ -1,0 +1,11 @@
+.add-blog form{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+}
+.add-blog form input{
+    width: 40%;
+    margin-bottom: 10px;
+}

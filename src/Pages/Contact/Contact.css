@@ -1,0 +1,43 @@
+.firstGrid{
+    margin-top: 4em;
+    overflow: hidden;
+}
+.contactText{
+    padding-left: 5em;
+    text-align: left;
+    
+}
+.locationText{
+    padding: 2rem;
+}
+.touchText{
+    margin-bottom: 1rem;
+    margin-left: -30%;
+}
+.followusText{
+    margin-right: 1em;
+}
+.subjectText{
+    margin-bottom: 1rem;
+}
+.emailText{
+    margin-bottom: 1rem;
+}
+.sendText{
+    margin-left: -30%;
+}
+.formate{
+    margin-left: 5%;
+    margin-top: 4%;
+
+}
+.messageBox{
+  height: 300%;
+}
+.firstNevigation{
+    margin-bottom: 6%;
+}
+.send{
+    margin-top: 3rem; 
+    border-radius: 1% solid black;
+}

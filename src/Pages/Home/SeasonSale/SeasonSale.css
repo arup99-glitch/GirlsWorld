@@ -1,0 +1,13 @@
+.secondBackground{
+    background-image: url('../../../images/background2.png');
+    height: 450px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.secondBackground-text{
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+  }

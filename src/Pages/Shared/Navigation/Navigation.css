@@ -1,0 +1,72 @@
+.topbar{
+    background-image: url('../../../images/background1.png');
+    background-color: #cccccc;/* Used if the image is unavailable */
+    height: 700px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.background-text{
+
+  margin-left: -10%;
+  margin-top: 10%;
+  position: absolute;
+  top: 42%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+  transform: translate(-50%, -50%);
+  color: rgba(0, 0, 0, 0.956);
+}
+.background-text h1{
+  font-weight: 100;
+}
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    .background-text {
+        left: 35%;
+    }
+    .topbar{
+        height: 500px;
+        
+        /* background-position: cover; */
+        background-repeat: no-repeat;
+        overflow: hidden,
+    };
+  }
+  
+  @media screen and (max-width: 1920px) {
+    .background-text {
+        left: 40%;
+    }
+  }
+.banner{
+    padding-top: 2%;
+    position: relative;
+  text-align: center;
+  color: rgb(244, 239, 239);
+    width: auto;
+    flex:25%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.img-text1{
+    position: absolute;
+  top: 60px;
+  left: 30px;
+}
+.zoom{
+ 
+  overflow: hidden;
+  margin: 0 auto;
+}
+.zoom img{
+ 
+            transition: 0.5s all ease-in-out;
+}
+.zoom:hover img {
+  transform: scale(1.1);
+}
+.banner button{
+  
+}

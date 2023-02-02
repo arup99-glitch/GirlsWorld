@@ -1,0 +1,56 @@
+.aboutBackground{
+    background-image: url('../../images/about-us.png');
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-bottom: 10%;
+    
+
+
+}
+.aboutBackground h1{
+    
+    text-align: center;
+    padding-top: 20%;
+
+
+}
+.blog-card{
+    padding: 3%;
+}
+.customer-text{
+    
+    padding-bottom: 4%;
+}
+.review-bacxkground{
+    background-color: rgb(255, 117, 117);
+    padding: 10%;
+}
+.reviewers-image{
+    border-radius: 50%;
+    width: 100px;
+}
+.call-us{
+    background-image: url(../../images/about-us-background.jpg);
+    height: 400px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-color:rgba(0,0,255,0.3);
+    padding-top: 10%;
+    
+    
+}
+hr.new5 {
+    border: 8px solid rgb(241, 8, 8);
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .call-us h1{
+    font-weight: 900;
+  }

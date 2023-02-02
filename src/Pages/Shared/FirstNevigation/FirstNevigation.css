@@ -1,0 +1,18 @@
+.NevigationText{
+   
+    font-family: Arial, Helvetica, sans-serif;
+   margin-left: 2rem;
+
+}
+.firtNevigation{
+   
+}
+div.buttonlogout{
+    position: absolute;
+    right: 0;
+    margin-top: -2.5rem;
+}
+.displayname{
+    margin-left: 14cm;
+    font-weight: 200;
+}
